@@ -1,0 +1,19 @@
+[project]
+name = "banking-modern-datastack"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml",
+    "psycopg2-binary",
+    "faker",
+    "python-dotenv",
+    "requests",
+    "kafka-python",
+    "boto3",
+    "fastparquet",
+    "pandas",
+    "dbt-core",
+    "dbt-snowflake",
+]
